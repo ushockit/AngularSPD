@@ -1,0 +1,5 @@
+https://nodejs.org/en/blog/release/v12.18.4/ - Require install
+Angular Get Started - https://angular.io/guide/setup-local
+
+https://metanit.com/web/angular2/
+https://angdev.ru/doc/setup-and-configuration/

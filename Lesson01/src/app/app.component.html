@@ -1,0 +1,16 @@
+<span>{{ title + '_Hi!' }} app is running!</span>
+<h6>{{ today }}</h6>
+<a [href]="href" [target]="target">Google</a>
+
+<button (click)="onBtnClick($event)">Click me</button>
+
+<child [items]="items" (btnClickEvent)="onChildBtnClick()"></child>
+
+
+<h3 *ngIf="isAuth">Hello, User!</h3>
+<h3 *ngIf="!isAuth">Hello, Guest!</h3>
+
+
+<ul>
+  <li (click)="onListItemClick(idx)" *ngFor="let item of items;let idx = index;">{{ idx }} - {{ item }}</li>
+</ul>
