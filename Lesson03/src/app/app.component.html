@@ -1,0 +1,7 @@
+<mat-list>
+  <mat-list-item><a routerLink="" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }">Home</a></mat-list-item>
+  <mat-list-item><a routerLink="/admin" routerLinkActive="active-link">Admin</a></mat-list-item>
+  <mat-list-item><a routerLink="/asfasfas" routerLinkActive="active-link">Error</a></mat-list-item>
+  <mat-list-item><a [routerLink]="['info', 1]" routerLinkActive="active-link">Info with id 1</a></mat-list-item>
+</mat-list>
+<router-outlet></router-outlet>
